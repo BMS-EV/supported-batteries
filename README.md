@@ -1,13 +1,13 @@
 # Supported EV Batteries
 
-Public database of **72 EV battery models** supported by [BMS-EV](https://bms-ev.com/) controllers for reuse as home stationary energy storage.
+Public database of **73 EV battery models** supported by [BMS-EV](https://bms-ev.com/) controllers for reuse as home stationary energy storage.
 
 **Full documentation:** [docs.bms-ev.com/batteries/](https://docs.bms-ev.com/batteries/)  
 **Interactive matrix:** [docs.bms-ev.com/compatibility/](https://docs.bms-ev.com/compatibility/)
 
 ## Data
 
-- [batteries.csv](batteries.csv) — machine-readable list of all 72 supported EV battery models with count of compatible inverters per pack
+- [batteries.csv](batteries.csv) — machine-readable list of all 73 supported EV battery models with count of compatible inverters per pack
 
 ## By manufacturer
 
@@ -28,7 +28,7 @@ Public database of **72 EV battery models** supported by [BMS-EV](https://bms-ev
 
 ## Compatibility Matrix
 
-Full **72 batteries × 56 inverters** matrix: https://docs.bms-ev.com/compatibility/
+Full **73 batteries × 56 inverters** matrix: https://docs.bms-ev.com/compatibility/
 
 Machine-readable: [supported-inverters](https://github.com/BMS-EV/supported-inverters) · [full compatibility CSV](https://github.com/BMS-EV/bms-ev-docs/blob/main/compatibility.csv)
 
