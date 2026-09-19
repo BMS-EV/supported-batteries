@@ -7,7 +7,7 @@ Public database of **70 battery/BMS profiles** supported by [BMS-EV](https://bms
 
 ## Data
 
-- [batteries.csv](batteries.csv) — machine-readable list of all 70 supported profiles (65 OEM EV pack profiles + 5 DIY/stationary BMS profiles), with the count of compatible inverters per profile
+- [batteries.csv](batteries.csv) — machine-readable list of all 70 supported profiles (65 OEM EV pack profiles + 3 DIY aftermarket-BMS profiles + 2 OEM stationary battery profiles), with the count of compatible inverters per profile
 
 ## By manufacturer
 
