@@ -1,13 +1,13 @@
 # Supported EV Batteries
 
-Public database of **73 EV battery models** supported by [BMS-EV](https://bms-ev.com/) controllers for reuse as home stationary energy storage.
+Public database of **70 battery/BMS profiles** supported by [BMS-EV](https://bms-ev.com/) controllers for reuse as home stationary energy storage.
 
 **Full documentation:** [docs.bms-ev.com/batteries/](https://docs.bms-ev.com/batteries/)  
 **Interactive matrix:** [docs.bms-ev.com/compatibility/](https://docs.bms-ev.com/compatibility/)
 
 ## Data
 
-- [batteries.csv](batteries.csv) — machine-readable list of all 73 supported EV battery models with count of compatible inverters per pack
+- [batteries.csv](batteries.csv) — machine-readable list of all 70 supported profiles (65 OEM EV pack profiles + 5 DIY/stationary BMS profiles), with the count of compatible inverters per profile
 
 ## By manufacturer
 
@@ -28,7 +28,7 @@ Public database of **73 EV battery models** supported by [BMS-EV](https://bms-ev
 
 ## Compatibility Matrix
 
-Full **73 batteries × 56 inverters** matrix: https://docs.bms-ev.com/compatibility/
+Full **70 battery/BMS profiles × 56 inverter variants** matrix (3,768 pairs): https://docs.bms-ev.com/compatibility/
 
 Machine-readable: [supported-inverters](https://github.com/BMS-EV/supported-inverters) · [full compatibility CSV](https://github.com/BMS-EV/bms-ev-docs/blob/main/compatibility.csv)
 
@@ -45,3 +45,9 @@ Missing a battery? Have you successfully installed one that isn't listed? [Open 
 - Shop: https://bms-ev.com/
 - Documentation: https://docs.bms-ev.com/
 - Email: office@bms-ev.com
+
+## Counting basis
+
+The 70 figure counts firmware profiles, not OEM EV pack variants alone: 65 OEM EV pack profiles plus 5 DIY/stationary BMS profiles (Orion, RJXZS, SimpBMS, FoxESS HV2600, Pylon HV). The `profile_type` column in [batteries.csv](batteries.csv) distinguishes them.
+
+**Correction, 2026-09-19.** Earlier versions published 73 profiles. Three entries were naming duplicates of existing profiles (Citroen Spacetourer EV, MG ZS EV, Toyota Proace EV), introduced by the WooCommerce catalogue export where one product can appear under more than one category. They were removed; their full profiles remain under the canonical names.
